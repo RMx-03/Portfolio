@@ -41,7 +41,7 @@ export const Sidebar: React.FC = () => {
       >
         <button
           onClick={toggleMenu}
-          className="mt-8 focus:outline-none focus:ring-2 focus:ring-gray-400 rounded-lg p-1"
+          className="mt-8 focus:outline-none rounded-lg p-1"
           aria-label="Toggle navigation menu"
           aria-expanded={isOpen}
         >
