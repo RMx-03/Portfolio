@@ -42,4 +42,4 @@ next-env.d.ts
 
 # additional files
 .vscode/
-code.md
+# code.md
