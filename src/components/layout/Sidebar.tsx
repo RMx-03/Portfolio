@@ -61,7 +61,7 @@ export const Sidebar: React.FC = () => {
         {isOpen && (
           <>
             <motion.div
-              className="fixed inset-0 bg-black/50 backdrop-blur-sm z-40"
+              className="fixed inset-0 bg-black/50 backdrop-blur-sm z-20"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
@@ -69,7 +69,7 @@ export const Sidebar: React.FC = () => {
             />
 
             <motion.nav
-              className="fixed left-20 top-0 h-screen w-64 bg-background border-r border-gray-200 dark:border-gray-800 z-50 flex flex-col py-12 px-6"
+              className="fixed left-20 top-0 h-screen w-64 bg-background border-r border-gray-200 dark:border-gray-800 z-30 flex flex-col py-12 px-6"
               initial={{ x: -264 }}
               animate={{ x: 0 }}
               exit={{ x: -264 }}
